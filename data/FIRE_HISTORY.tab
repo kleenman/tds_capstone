@@ -1,0 +1,26 @@
+!table
+!version 900
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 19
+    FIRETYPE Char (8) ;
+    SEASON Smallint ;
+    FIRE_NO Char (25) ;
+    NAME Char (254) ;
+    START_DATE DateTime ;
+    START_DATE_INT Integer ;
+    TREATMENT_TYPE Char (50) ;
+    FIRE_SEVERITY Char (25) ;
+    FIRE_COVER Char (50) ;
+    FIREKEY Char (50) ;
+    CREATE_DATE DateTime ;
+    UPDATE_DATE DateTime ;
+    AREA_HA Float ;
+    METHOD Char (50) ;
+    METHOD_COMMENTS Char (254) ;
+    ACCURACY Char (50) ;
+    DSE_ID Integer ;
+    CFA_ID Integer ;
+    DISTRICT_ID Char (2) ;
