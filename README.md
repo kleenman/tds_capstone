@@ -13,5 +13,5 @@ Excecute the files in the following order:
 Warning:
 Making the masks and training the model takes a considerable amount of time. 
 Therefor we don't recommend creating the masks and training the model again.
-Please load the model from GitHub for the Gradio inteface.
+Please load the model from GoogleDrive for the Gradio inteface.
 
